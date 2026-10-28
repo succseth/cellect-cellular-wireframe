@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HOME — Wireframe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="pages.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div id="app" class="site-shell">
+      <section class="home-hero">
+        <header class="header on-dark">
+          <a aria-label="Home" href="#/" class="logo"><span></span><span></span><span></span></a>
+          <nav class="" aria-label="Main navigation">
+            <a href="#/" class="active">HOME</a><a href="#/deals" class="">DEALS</a
+            ><a href="#/devices" class="">DEVICES</a><a href="#/upgrades" class="">UPGRADES</a
+            ><a href="#/store-locator" class="">STORE LOCATOR</a
+            ><a href="#/yello-trader" class="">Y’ELLO TRADER</a
+            ><a href="#/contact" class="">CONTACT</a>
+          </nav>
+          <div class="header-actions">
+            <button aria-label="Search pages" class="search-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-search"
+                aria-hidden="true"
+              >
+                <path d="m21 21-4.34-4.34"></path>
+                <circle cx="11" cy="11" r="8"></circle>
+              </svg></button
+            ><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu"
+                aria-hidden="true"
+              >
+                <path d="M4 5h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 19h16"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
+        <div class="hero-cross" aria-hidden="true">
+          <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 0L100 100M100 0L0 100"></path>
+          </svg>
+          <div class="hero-image-mark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="0.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-grid2x2 lucide-grid-2x2"
+              aria-hidden="true"
+            >
+              <path d="M12 3v18"></path>
+              <path d="M3 12h18"></path>
+              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+            </svg>
+          </div>
+        </div>
+        <div class="hero-body">
+          <span class="eyebrow">HOME</span>
+          <div class="lines large" aria-hidden="true"><span></span><span></span></div>
+          <div class="lines" aria-hidden="true"><span></span><span></span></div>
+          <a href="#/deals" class="pill hero-cta"
+            >DEALS<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg
+          ></a>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-tabs">
+            <button class="selected">
+              DEALS<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg></button
+            ><button class="">
+              DEVICES<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg></button
+            ><button class="">
+              UPGRADES<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="carousel-controls">
+            <span>01<small> / 03</small></span
+            ><button aria-label="Previous slide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-left"
+                aria-hidden="true"
+              >
+                <path d="m12 19-7-7 7-7"></path>
+                <path d="M19 12H5"></path>
+              </svg></button
+            ><button aria-label="Next slide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="content home-content">
+        <div class="editorial-grid">
+          <a href="#/deals" class="editorial-card editorial-0"
+            ><div class="card-top">
+              <span class="eyebrow">DEALS</span
+              ><span class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg
+              ></span>
+            </div>
+            <div class="lines" aria-hidden="true"><span></span><span></span></div>
+            <div class="media" aria-label="Image placeholder">
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0 0L100 100M100 0L0 100"></path></svg
+              ><span class="media-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-grid2x2 lucide-grid-2x2"
+                  aria-hidden="true"
+                >
+                  <path d="M12 3v18"></path>
+                  <path d="M3 12h18"></path>
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect></svg
+              ></span></div></a
+          ><a href="#/devices" class="editorial-card editorial-1"
+            ><div class="card-top">
+              <span class="eyebrow">DEVICES</span
+              ><span class="arrow dark"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg
+              ></span>
+            </div>
+            <div class="media" aria-label="Image placeholder">
+              <div class="phone-outline"><span></span><i></i></div>
+            </div>
+            <div class="lines" aria-hidden="true"><span></span><span></span></div></a
+          ><a href="#/upgrades" class="editorial-card editorial-2"
+            ><div class="card-top">
+              <span class="eyebrow">UPGRADES</span
+              ><span class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg
+              ></span>
+            </div>
+            <div class="lines" aria-hidden="true"><span></span><span></span></div>
+            <div class="media" aria-label="Image placeholder">
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0 0L100 100M100 0L0 100"></path></svg
+              ><span class="media-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-grid2x2 lucide-grid-2x2"
+                  aria-hidden="true"
+                >
+                  <path d="M12 3v18"></path>
+                  <path d="M3 12h18"></path>
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect></svg
+              ></span></div
+          ></a>
+        </div>
+        <section class="wide-block">
+          <div class="wide-copy">
+            <span class="eyebrow">UPGRADES</span>
+            <div class="lines large" aria-hidden="true"><span></span><span></span></div>
+            <div class="lines" aria-hidden="true"><span></span><span></span></div>
+            <a href="#/upgrades" class="pill"
+              >UPGRADES<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg
+            ></a>
+          </div>
+          <div class="media" aria-label="Image placeholder">
+            <div class="phone-outline"><span></span><i></i></div>
+          </div>
+        </section>
+        <section class="home-utilities">
+          <div class="section-heading">
+            <div class="lines large" aria-hidden="true"><span></span></div>
+          </div>
+          <div class="utility-grid">
+            <a href="#/store-locator"
+              ><div class="utility-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-map-pin"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <h3>STORE LOCATOR</h3>
+              <div class="lines" aria-hidden="true"><span></span><span></span></div>
+              <span class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg></span></a
+            ><a href="#/yello-trader"
+              ><div class="utility-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-grid2x2 lucide-grid-2x2"
+                  aria-hidden="true"
+                >
+                  <path d="M12 3v18"></path>
+                  <path d="M3 12h18"></path>
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                </svg>
+              </div>
+              <h3>Y’ELLO TRADER</h3>
+              <div class="lines" aria-hidden="true"><span></span><span></span></div>
+              <span class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg></span></a
+            ><a href="#/contact"
+              ><div class="utility-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-phone"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  ></path>
+                </svg>
+              </div>
+              <h3>CONTACT</h3>
+              <div class="lines" aria-hidden="true"><span></span><span></span></div>
+              <span class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg></span
+            ></a>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="footer-top">
+          <a aria-label="Home" href="#/" class="logo"><span></span><span></span><span></span></a>
+          <div class="footer-links">
+            <a href="#/deals">DEALS</a><a href="#/devices">DEVICES</a
+            ><a href="#/upgrades">UPGRADES</a><a href="#/store-locator">STORE LOCATOR</a
+            ><a href="#/yello-trader">Y’ELLO TRADER</a><a href="#/contact">CONTACT</a>
+          </div>
+          <button class="arrow" aria-label="Back to top">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="footer-bottom">
+          <div class="lines" aria-hidden="true"><span></span></div>
+          <div class="footer-dots"><i></i><i></i><i></i></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
